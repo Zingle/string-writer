@@ -4,7 +4,7 @@ and used as strings.
 Usage
 =====
 ```js
-const stringWriter = require("string-writer");
+const stringWriter = require("@zingle/string-writer");
 
 function processReadableStream(input, done) {
     const output = stringWriter();
